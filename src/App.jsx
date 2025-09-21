@@ -1,10 +1,12 @@
 import "./App.css";
-import { RegForm } from "./Components/RegForm";
+import { AdviceApp } from "./Components/AdviceApp";
+// import { RegForm } from "./Components/RegForm";
 
 function App() {
   return (
     <>
-      <RegForm />
+      {/* <RegForm /> */}
+      <AdviceApp />
     </>
   );
 }

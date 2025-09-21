@@ -1,4 +1,4 @@
-table {
+/* table {
   border: 1px solid #ccc;
   border-collapse: collapse;
 }
@@ -18,4 +18,42 @@ form {
   display: flex;
   flex-direction: column;
   gap: 10px;
+} */
+
+/* Adice App */
+
+body {
+  /* width: 100vh; */
+  height: 100vh;
+  background-color: #fc427b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div button {
+  border: none;
+  background-color: #182c61;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+div h3 {
+  font-size: 20px;
+}
+
+b {
+  color: #2c3a47;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
 }
